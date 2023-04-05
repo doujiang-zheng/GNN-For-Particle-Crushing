@@ -1,0 +1,24 @@
+cython==0.29.32
+easydict==1.9
+gpustat==0.6.0
+lightgbm==3.3.5
+matplotlib==3.5.2
+numpy==1.22.3
+pandas==1.4.2
+pyparsing==3.0.4
+pytorch-lightning==1.5.10
+pyyaml==6.0
+scikit-learn==1.1.2
+scipy==1.7.3
+seaborn==0.12.1
+setuptools==59.5.0
+threadpoolctl==3.1.0
+torch==1.10.2
+# torch-cluster==1.5.9
+# torch-geometric==2.0.3
+# torch-scatter==2.0.9
+# torch-sparse==0.6.12
+# torch-spline-conv==1.2.1
+torchmetrics==0.7.2
+tqdm==4.64.0
+xgboost==1.7.4

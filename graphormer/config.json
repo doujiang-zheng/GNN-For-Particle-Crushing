@@ -1,0 +1,16 @@
+{
+    "n_layers": 12,
+    "head_size": 32,
+    "hidden_dim": 512,
+    "dropout": 0.1,
+    "input_dropout": 0.1,
+    "weight_decay": 0.01, 
+    "ffn_dim": 512,
+    "warmup_updates": 60000,
+    "tot_updates": 1000000,
+    "peak_lr": 2e-4,
+    "end_lr": 1e-9,
+    "edge_type": "multi_hop1",
+    "multi_hop_max_dist": 5,
+    "attention_dropout": 0.1
+}
