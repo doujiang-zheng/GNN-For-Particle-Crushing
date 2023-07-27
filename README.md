@@ -1,6 +1,6 @@
 # GNN-For-Particle-Crushing
 
-> Code for the paper `Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength`.
+> Code for the paper [Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength](https://arxiv.org/abs/2307.13909).
 
 We have generated 45,000 numerical simulations for particle crushing with 900 different particle types in total, the Cartesian product of 20 different particle diameters, 15 different scale shapes in the (X, Y, Z) axes, and 3 different compression axes under one-dimensional compression.
 Download `data_files` from [Google Drive](https://drive.google.com/drive/folders/1umqn2aj68uTItp9H-nQGX0QQKRmic_1u?usp=sharing) and place the directory in the current folder.
@@ -36,3 +36,16 @@ Download `data_files` from [Google Drive](https://drive.google.com/drive/folders
 ## Other parameters
 
 - Set the task, `--test-choice diameter | scale | rotation`, refers to the diameter, shape, and axis task in our paper.
+
+## Cite us
+
+```
+@article{zheng2023graph,
+  title={Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength},
+  author={Zheng, Tongya and Zhang, Tianli and Guan, Qingzheng and Huang, Wenjie and Feng, Zunlei and Song, Mingli and Chen, Chun},
+  journal={arXiv:2307.13909 },
+  year={2023},
+  pages={1--43},
+  publisher={arxiv}
+}
+```
