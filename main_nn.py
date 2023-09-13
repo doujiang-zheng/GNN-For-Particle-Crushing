@@ -270,5 +270,5 @@ if __name__ == '__main__':
     model_args = next(iter(get_model_config(args.model)))
     
     args.gpu_id = get_free_gpu() 
-    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
+    # os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
     main(args, data_args, model_args)
