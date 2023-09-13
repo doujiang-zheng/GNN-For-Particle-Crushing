@@ -13,7 +13,7 @@ Download `data_files` from [Google Drive](https://drive.google.com/drive/folders
 
 - `pip install -r requirements.txt`. My torch version is torch-1.10.2+cu113.
 
-- Install the dependency of `torch_geoemtric` according to [PyG](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html). My PYG version is `torch-1.10.2+cu113`, downloaded from [PyG-torch.10.2+cu113](https://data.pyg.org/whl/torch-1.10.2+cu113.html).
+- Install the dependency of `torch_geoemtric` according to [PyG](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html). My PYG version is `torch-1.10.2+cu113`, and I **recommend to download these dependency packages** from [PyG-torch.10.2+cu113](https://data.pyg.org/whl/torch-1.10.2+cu113.html).
 - `pip install torch-geometric==2.0.3`
 
 - `bash ./init.sh` to create useful directories.
